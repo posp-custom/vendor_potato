@@ -11,6 +11,10 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     PotatoThemesStub
 
+# Config
+PRODUCT_PACKAGES += \
+    SimpleDeviceConfig
+    
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
