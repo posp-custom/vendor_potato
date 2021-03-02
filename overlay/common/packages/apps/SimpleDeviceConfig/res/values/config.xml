@@ -58,6 +58,9 @@
             Device Personalization Services (AiAi)
         -->
 
+        <!-- Now Playing (Pixel 2017) -->
+        <item>device_personalization_services/NowPlaying__ambient_music_index_manifest_17_09_02=167:https://storage.googleapis.com/music-iq-db/updatable_ytm_db/20210221-030046/manifest.json</item>
+
         <!-- Live Captions (Pixel 2017 + OEM) -->
         <item>device_personalization_services/Captions__manifest_url_template=https://storage.googleapis.com/captions/%{NAMESPACE}_%{VERSION}_manifest.json</item>
         <item>device_personalization_services/Captions__model_version_v1=20190613</item>
