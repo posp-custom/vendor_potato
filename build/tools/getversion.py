@@ -22,11 +22,11 @@ def get_build_type(target_product):
         with open("vendor/potato/devices.json", "r") as read_file:
             devices = json.load(read_file).keys()
             if current_device not in devices:
-                build_type = 'Community'
+                build_type = 'Custom'
             else:
                 build_type = build_type.title()
     else:
-        build_type = "Community"
+        build_type = "Custom"
     return build_type
 
 
