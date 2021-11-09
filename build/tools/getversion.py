@@ -82,7 +82,7 @@ def main():
         data = json.load(read_file)
 
     target_product = os.environ['TARGET_PRODUCT'] if 'TARGET_PRODUCT' in os.environ else ''
-    date = subprocess.Popen(['date', '-u', '+%Y%m%d'],
+    date = subprocess.Popen(['date', '-u', '+%Y%m%d-%H%M'],
                             stdout=subprocess.PIPE,
                             stderr=subprocess.STDOUT).communicate()[0].strip()
     data['product'] = target_product
