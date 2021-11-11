@@ -33,5 +33,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     QuickAccessWallet
 
+# Updater
+PRODUCT_PACKAGES += \
+    Updater
+
 -include vendor/potato-prebuilts/packages/apps/Lawnchair/lawnchair.mk
 -include packages/apps/Plugins/plugins.mk
